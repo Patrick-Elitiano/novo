@@ -6,9 +6,11 @@
 body {
     min-height: 100vh;
     
+    
 }
 header{
-    min-height: 30px;
+
+    min-height: 100px;
     background: #ee4d2d;
 }
 
@@ -46,3 +48,9 @@ a:hover{
     font-size: 1rem;
     color: grey;
 }
+.help{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: small;   
+    }
