@@ -1,20 +1,21 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
     min-height: 100vh;
-    
-    
+
+
 }
-header{
+
+header {
 
     min-height: 100px;
     background: #ee4d2d;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -22,16 +23,19 @@ header{
     color: white;
     padding-top: 6px;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
     font-size: small;
 }
-a:hover{
+
+a:hover {
     cursor: pointer;
     color: rgb(189, 184, 184);
 }
-.busc{
+
+.busc {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -39,7 +43,8 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
 }
-.busc input{
+
+.busc input {
     width: 750px;
     padding: 15px;
     border-radius: 3px;
@@ -48,9 +53,82 @@ a:hover{
     font-size: 1rem;
     color: grey;
 }
-.help{
+
+.help {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    font-size: small;   
-    }
+    gap: 15px;
+    font-size: small;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid;
+    height: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    min-height: 300px;
+    gap: 20px;
+
+}
+
+section :hover {}
+
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.venda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+    background: transparent;
+    gap: 1px;
+}
+
+.venda img {
+    height: 250px;
+    transition: 1s;
+
+}
+
+.venda img:hover {
+    height: 280px;
+    transition: 1s;
+
+}
+
+p {
+    font-size: 12px;
+}
+
+.venda button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
