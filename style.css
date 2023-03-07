@@ -174,3 +174,20 @@ p {
     border: none;
     cursor: pointer;
 }
+
+.item{
+
+}
+
+.item img{
+    height: 250px;
+}
+
+.frase{
+    bottom: 0;
+    left: 0;
+    height: 1.5625rem;
+    background-color: rgba(0,0,0,.26);
+    color: #fff;
+    text-align: center;
+  }
