@@ -5,6 +5,7 @@
 
 body {
     min-height: 100vh;
+    background: whitesmoke;
 
 
 }
@@ -64,6 +65,7 @@ a:hover {
 .tudo {
     display: flex;
     justify-content: center;
+    background: #fff;
     margin-top: 30px;
     margin-bottom: 30px;
 
@@ -75,7 +77,7 @@ a:hover {
 
 }
 
-.gemeos{
+.gemeos {
     margin-left: 5px;
 }
 
@@ -116,51 +118,102 @@ a:hover {
 
 .titulo {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    border: 2px solid;
-    height: 30px;
+    align-items: center;
+    background: #fff;
+    color: #ee4d2d;
+    height: 65px;
+    margin: 1px;
+    margin-left: 158px;
+    margin-right: 158px;
+    padding: 0 1.25rem;
 }
 
-.shop {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    height: 200px;
-    width: 200px;
-}
+
+
 
 p {
     font-size: 12px;
-    color: black;
+    color: #fff;
 }
 
 section {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     min-height: 300px;
-    gap: 20px;
+    box-shadow: 0 .0625rem .125rem 0 rgba(0,0,0,.1);
+
 }
 
-.item{
+.item {
     display: flex;
     align-items: center;
-    padding: 20px;
-    background: transparent;
-    gap: 95px;
-box-shadow: #555;}
-
-.item img{
-    height: 250px;
+    background: #fff;
+    gap: 15px;
 }
 
-.frase{
-    background-color: rgba(0,0,0,.26);
+.item img {
+    height: 130px;
+}
+
+.frase {
+    background-color: rgba(0, 0, 0, .26);
     color: #fff;
     text-align: center;
-  }
+}
 
-  .txt{
+.txt {
     color: #555;
     font-size: 20px;
-  }
+}
+
+.barra {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #555;
+}
+
+.magazine {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.pag{
+    background: #fff;
+    padding-bottom: 13px;
+    box-shadow: 0 .0625rem .125rem 0 rgba(0,0,0,.1);
+    cursor: pointer;
+    transition: 1s;
+    }
+
+.pag :hover{
+    
+    border: 1px solid #ee4d2d;
+    
+
+}
+
+.it {
+    background: #fff;
+}
+
+.it img {
+    height: 190px;
+}
+
+.txt02{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 9px;
+}
+
+.valor{
+    color: #ee4d2d;
+    padding-left: 20px;
+}
