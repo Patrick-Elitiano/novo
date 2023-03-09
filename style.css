@@ -6,7 +6,10 @@
 body {
     min-height: 100vh;
     background: whitesmoke;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9fe8ac8480cd27cd8ef5a86932fc7b98924591d2
 
 }
 
@@ -62,10 +65,16 @@ a:hover {
     font-size: small;
 }
 
+
 .tudo {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     background: #fff;
+=======
+    background: whitesmoke;
+
+>>>>>>> 9fe8ac8480cd27cd8ef5a86932fc7b98924591d2
     margin-top: 30px;
     margin-bottom: 30px;
 
@@ -120,6 +129,7 @@ a:hover {
     display: flex;
     align-items: center;
     background: #fff;
+<<<<<<< HEAD
     color: #ee4d2d;
     height: 65px;
     margin: 1px;
@@ -127,6 +137,22 @@ a:hover {
     margin-right: 158px;
     padding: 0 1.25rem;
 }
+
+
+
+=======
+    margin-left: 109px;
+    margin-right: 109px;
+    padding: 30px;
+    height: 30px;
+    
+}
+
+.titulo h3{
+    color: #ee4d2d;
+}
+>>>>>>> 9fe8ac8480cd27cd8ef5a86932fc7b98924591d2
+
 
 
 
@@ -140,19 +166,31 @@ section {
     display: flex;
     justify-content: center;
     min-height: 300px;
+<<<<<<< HEAD
     box-shadow: 0 .0625rem .125rem 0 rgba(0,0,0,.1);
 
+=======
+    margin-top: 1px;
+>>>>>>> 9fe8ac8480cd27cd8ef5a86932fc7b98924591d2
 }
 
 .item {
     display: flex;
     align-items: center;
     background: #fff;
+<<<<<<< HEAD
     gap: 15px;
 }
 
 .item img {
     height: 130px;
+=======
+    gap: 20px;
+}
+
+.item img{
+    height: 140px;
+>>>>>>> 9fe8ac8480cd27cd8ef5a86932fc7b98924591d2
 }
 
 .frase {
