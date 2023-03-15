@@ -6,10 +6,6 @@
 body {
     min-height: 100vh;
     background: whitesmoke;
-<<<<<<< HEAD
-
-=======
->>>>>>> 9fe8ac8480cd27cd8ef5a86932fc7b98924591d2
 
 }
 
@@ -69,12 +65,8 @@ a:hover {
 .tudo {
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
     background: #fff;
-=======
     background: whitesmoke;
-
->>>>>>> 9fe8ac8480cd27cd8ef5a86932fc7b98924591d2
     margin-top: 30px;
     margin-bottom: 30px;
 
@@ -129,60 +121,46 @@ a:hover {
     display: flex;
     align-items: center;
     background: #fff;
-<
     color: #ee4d2d;
     height: 65px;
     margin: 1px;
-    margin-left: 158px;
-    margin-right: 158px;
+    margin-left: 138px;
+    margin-right: 138px;
     padding: 0 1.25rem;
+    box-shadow: 0 .0625rem .125rem 0 rgba(0,0,0,.1);
 }
 
-
-
-    margin-left: 109px;
-    margin-right: 109px;
-    padding: 30px;
-    height: 30px;
-    
-}
 
 .titulo h3{
     color: #ee4d2d;
 }
 
-
-
-
-
-
 p {
     font-size: 12px;
-    color: #fff;
+    color: black;
 }
 
 section {
     display: flex;
     justify-content: center;
     min-height: 300px;
-
     box-shadow: 0 .0625rem .125rem 0 rgba(0,0,0,.1);
-
     margin-top: 1px;
-
+    margin-left: 138px;
+    margin-right: 138px;
+    background: #fff;
 }
 
 .item {
     display: flex;
     align-items: center;
     background: #fff;
-
     gap: 15px;
 }
 
+
 .item img {
     height: 130px;
-
     gap: 20px;
 }
 
@@ -221,13 +199,13 @@ section {
 
 .pag{
     background: #fff;
-    padding-bottom: 13px;
     box-shadow: 0 .0625rem .125rem 0 rgba(0,0,0,.1);
     cursor: pointer;
-    transition: 1s;
+    transition: 0.2s;
     }
 
-.pag :hover{
+
+.pag:hover{
     
     border: 1px solid #ee4d2d;
     
@@ -244,12 +222,33 @@ section {
 
 .txt02{
     font-size: 12px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-bottom: 9px;
 }
 
 .valor{
     color: #ee4d2d;
     padding-left: 20px;
+}
+
+.invi{
+    display: none;
+    text-align: center;
+    color: #fff;
+    background: #ee4d2d;
+    font-size: medium;
+    
+}
+
+.invi p{
+    color: #fff;
+}
+
+.pag:hover .invi{
+    display: block; 
+}
+
+.final{
+    padding: 10px;
+    color: #ee4d2d;
 }
