@@ -7,6 +7,7 @@ body {
     min-height: 100vh;
     background: whitesmoke;
 
+
 }
 
 header {
@@ -126,6 +127,8 @@ a:hover {
     margin: 1px;
     margin-left: 138px;
     margin-right: 138px;
+    margin-left: 106px;
+    margin-right: 106px;
     padding: 0 1.25rem;
     box-shadow: 0 .0625rem .125rem 0 rgba(0,0,0,.1);
 }
@@ -154,6 +157,8 @@ section {
 .item {
     display: flex;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 3px;
     background: #fff;
     gap: 15px;
 }
@@ -207,9 +212,26 @@ section {
 
 .pag:hover{
     
+    border: none;
+    }
+.pag:hover{
     border: 1px solid #ee4d2d;
-    
+    transition: 0.2s;
 
+}
+    
+.invi{
+   display: none;
+   transition: 0.5s;
+   text-align: center;
+
+    }
+
+.pag:hover .invi{
+    background: #ee4d2d;
+    color: white;
+    transition: 0.5s;
+    display: block;
 }
 
 .it {
@@ -252,3 +274,4 @@ section {
     padding: 10px;
     color: #ee4d2d;
 }
+
