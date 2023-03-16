@@ -160,17 +160,16 @@ section {
     padding-left: 20px;
     padding-right: 3px;
     background: #fff;
-    gap: 15px;
+    gap: 8px;
 }
 
 
 .item img {
     height: 130px;
-    gap: 20px;
 }
 
 .item img{
-    height: 140px;
+    height: 150px;
 
 }
 
@@ -185,7 +184,7 @@ section {
     font-size: 20px;
 }
 
-.barra {
+.barra{
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -193,7 +192,7 @@ section {
     background: #555;
 }
 
-.magazine {
+.magazine{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -211,9 +210,9 @@ section {
 
 
 .pag:hover{
-    
     border: none;
     }
+
 .pag:hover{
     border: 1px solid #ee4d2d;
     transition: 0.2s;
